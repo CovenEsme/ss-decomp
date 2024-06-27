@@ -87,7 +87,7 @@ protected:
     /* 0x60 | 8002cea0 */ virtual void unkVirtFunc_0x60();
     /* 0x64 | 8002ceb0 */ virtual bool restorePosRotFromCopy();
     /* 0x68 | 8002db80 */ virtual void *getCurrentEventActor();
-    /* 0x6C | 8002db90 */ virtual void unkVirtFunc_0x6C();
+    /* 0x6C | 8002db90 */ virtual void unkVirtFunc_0x6C();  // seems to be updateActorFlags??
     /* 0x70 | 8002dba0 */ virtual void doInteraction(s32);
 
 public:

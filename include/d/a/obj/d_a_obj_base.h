@@ -31,8 +31,11 @@ public:
     /* 0x15C */ mMtx_c worldMatrix;
 
     nw4r::math::AABB boundingBox;
+    float cullingDistance;
+    float AABB_Addon;
+    u32 objectActorFlags;
 
-    u8 unk_0x1A4[0x330 - 0x1A4];
+    u8 unk_0x1A4[0x330 - 0x1B0];
 
 public:
     // could be their own thing?

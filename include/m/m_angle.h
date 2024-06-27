@@ -10,6 +10,8 @@ struct mAng {
     s32 step(s16 target, s32 steps, s16 max, s16 min);
 
     s16 mVal;
+
+    operator s16();
 };
 
 class mAng3_c {

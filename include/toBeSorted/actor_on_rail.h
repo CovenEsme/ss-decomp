@@ -16,9 +16,12 @@ public:
     virtual ~ActorOnRail();
 
     /* 800A6D90 */
-    bool init(int pathIndex, int roomId, int pathSubtype);
+    int init(int pathIndex, int roomId, int pathSubtype);
     /* 800A68B0 */
     mVec3_c *getPntPosForIndex(int index);
+    u32 FUN_800a7c80(f32, int, mVec3_c *);
+    double FUN_800a8280(f32, int);
+    u32 FUN_800a8510(f32, int, mVec3_c *);
 };
 
 #endif
